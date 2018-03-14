@@ -1,0 +1,160 @@
+/*
+CSS Name: iWednesday-Design 
+Description:  white border, cool white box, caption underneath pics, css3 (This css is developed by iwednesday. Thank you very much. For more information contact iwednesday).
+Author: iWednesday for <a href="http://iwednesday.co.uk" target="_blank">iwednesday</a>
+Version: 1.0
+ImgMargins: 0px 0px 0px 3px;
+*/
+
+/* ----------- Styles extend -------------*/
+.scrollgallery .scrollGalleryHead{
+}
+.scrollgallery .scrollGalleryFoot{
+	margin-top:0px;
+	padding-top:0px;
+}
+.scrollgallery .thumbarea{
+	padding-top:15px;
+	padding-bottom:15px;
+	 /* css3 */
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+   border-radius:5px;
+   background:#f1f1f1;
+   width:600px;
+   
+   /*-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black; */
+			
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   
+}
+.scrollgallery .thumbarea:after {
+   content:"";
+   display:block; /* reduce the damage in FF3.0 */
+   position:absolute; 
+   left:264px !important;
+   border-width:0 32px 32px;
+   border-style:solid;
+   border-color:#f1f1f1 transparent;
+    right:10px;
+   left:auto;
+   -webkit-transform:rotate(3deg) !important;
+   -moz-transform:rotate(3deg) !important;
+   -o-transform:rotate(3deg) !important;
+   transform:rotate(3deg) !important;
+}
+
+.scrollgallery .thumbarea:before,
+.scrollgallery .thumbarea:after {
+   content:"";
+   position:absolute;
+   z-index:-1;
+   bottom:15px;
+   left:40px;
+   width:50%;
+   height:20%;
+   max-width:300px;
+   -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+   -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+   box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+   -webkit-transform:rotate(-3deg);
+   -moz-transform:rotate(-3deg);
+   -o-transform:rotate(-3deg);
+   transform:rotate(-3deg);
+}
+
+
+
+
+
+.scrollgallery .scrollGalleryFoot:after {
+   content:"";
+   display:block; /* reduce the damage in FF3.0 */
+   position:absolute;
+   top:571px;
+   left:301px;
+   width:0;
+   border-width:0 32px 32px;
+   border-style:solid;
+   border-color:#f1f1f1 transparent;
+}
+
+
+
+.scrollgallery .thumbareaContent img{
+    padding: 0px;
+	border:3px solid #111;
+	margin-left:3px !important;
+	margin-right:6px !important;
+	
+	 /* css3 */
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+   border-radius:5px;
+}
+
+
+.scrollgallery .imagearea{
+	padding: 5px;
+	border-bottom: thin solid #ff0;
+        margin: 0 0 53px;
+}
+
+
+.scrollgallery .imageareaContent{
+	margin-bottom:20px;
+}
+.scrollgallery .imageareaContent img{
+    padding: 0px;
+	border:7px solid #fff;
+	margin-bottom:10px !important;
+}
+.scrollgallery .imageareaContent .caption_container div{
+	margin:14px auto 0 !important;
+	font-weight:bold;
+	background-color: transparent;
+	padding: 5px 4px;
+	background:rgba(0, 0, 0, 0.3) !important; 
+	width:100%;
+	
+	
+	/*CSS 3 */
+
+
+}
+
+/*.drop-shadow {
+   position:relative;
+   width:90%;
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+   content:"";
+   position:absolute;
+   z-index:-1;
+   bottom:15px;
+   left:10px;
+   width:50%;
+   height:20%;
+   max-width:300px;
+   -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+   -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+   box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+   -webkit-transform:rotate(-3deg);
+   -moz-transform:rotate(-3deg);
+   -o-transform:rotate(-3deg);
+   transform:rotate(-3deg);
+}
+
+.drop-shadow:after{
+   right:10px;
+   left:auto;
+   -webkit-transform:rotate(3deg);
+   -moz-transform:rotate(3deg);
+   -o-transform:rotate(3deg);
+   transform:rotate(3deg);
+ }
+*/

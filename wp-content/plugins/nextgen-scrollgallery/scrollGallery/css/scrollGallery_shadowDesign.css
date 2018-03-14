@@ -1,0 +1,42 @@
+/*
+CSS Name: CSS3 Shadow-Design 
+Description: Gives your NextGEN scrollGallery a shadow style.
+Author: Benedikt Morschheuser
+Version: 1.1
+ImgMargins: 0px 0px 0px 3px;
+*/
+
+/* ----------- Styles extend -------------*/
+.scrollgallery .scrollGalleryHead{
+}
+.scrollgallery .scrollGalleryFoot{
+}
+.scrollgallery .thumbarea{
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.scrollgallery .thumbareaContent img{
+    padding: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 0 3px #888;
+	-webkit-box-shadow: 0 0 3px #888;
+	box-shadow: 0 0 3px #888;
+	margin-left:8px !important;
+}
+.scrollgallery .imagearea{
+	padding: 5px;
+}
+.scrollgallery .imageareaContent img{
+    padding: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+}
+.scrollgallery .imageareaContent .caption_container div{
+	margin-left:3px !important;
+}

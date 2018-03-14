@@ -1,0 +1,41 @@
+/*
+CSS Name: White-Border-Design 
+Description:  6 px white border, caption underneath pics
+Author: Benedikt Morschheuser for <a href="http://likewise.dk" target="_blank">likewise.dk</a>
+Version: 1.0
+ImgMargins: 0px 0px 0px 3px;
+*/
+
+/* ----------- Styles extend -------------*/
+.scrollgallery .scrollGalleryHead{
+}
+.scrollgallery .scrollGalleryFoot{
+	margin-top:0px;
+	padding-top:0px;
+}
+.scrollgallery .thumbarea{
+	padding-top:2px;
+	padding-bottom:0px;
+}
+.scrollgallery .thumbareaContent img{
+    padding: 0px;
+	border:3px solid #fff;
+	margin-left:3px !important;
+	margin-right:6px !important;
+}
+.scrollgallery .imagearea{
+	padding: 5px;
+}
+.scrollgallery .imageareaContent{
+	margin-bottom:20px;
+}
+.scrollgallery .imageareaContent img{
+    padding: 0px;
+	border:6px solid #fff;
+}
+.scrollgallery .imageareaContent .caption_container div{
+	margin:15px 0px 0px 3px !important;
+	font-weight:bold;
+	background-color: transparent;
+	padding: 5px 0px 0px 6px;
+}
